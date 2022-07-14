@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css">
+		<title>Calculator Project</title>
+	</head>
+	<body>
+		<!-- start writing your code -->
+        <div class="container">
+        <main class="mainContainer">
+            <input type="text" class="display" value="" disabled>
+            <div class="gridclass">
+                <div class="ac" onclick="buttonClick('ac')">AC</div>
+                <div onclick="buttonClick('del')">DEL</div>
+                <div onclick="buttonClick('/')">/</div>
+                <div onclick="buttonClick(1)">1</div>
+                <div onclick="buttonClick(2)">2</div>
+                <div onclick="buttonClick(3)">3</div>
+                <div onclick="buttonClick('*')">*</div>
+                <div onclick="buttonClick(4)">4</div>
+                <div onclick="buttonClick(5)">5</div>
+                <div onclick="buttonClick(6)">6</div>
+                <div onclick="buttonClick('+')">+</div>
+                <div onclick="buttonClick(7)">7</div>
+                <div onclick="buttonClick(8)">8</div>
+                <div onclick="buttonClick(9)">9</div>
+                <div onclick="buttonClick('-')">-</div>
+                <div onclick="buttonClick('.')">.</div>
+                <div onclick="buttonClick(0)">0</div>
+                <div onclick="buttonClick('=')">=</div>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+	</body>
+</html>
